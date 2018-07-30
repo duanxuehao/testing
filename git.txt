@@ -1,0 +1,16 @@
+git clone
+git pull 拉取
+git fetch
+git branch 列出本地存在的分支
+git remote -v 查看远程仓库
+git submodule init
+git submodule update
+git checkout master取出当前分支的Head
+
+编译：cmake 。。，然后make -j8
+
+
+当git拉取代码时，如果子目录拉取失败，可以进入子目录然后执行git checkout master,然后git pull
+
+
+
